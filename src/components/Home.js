@@ -27,7 +27,7 @@ function Home(props) {
 
 
     return (
-        <div id='main'>
+        <main id='main'>
             <div className='get-started-container'>
                 <div id='overlay'></div>
                 <div className='get-started'>
@@ -136,7 +136,7 @@ function Home(props) {
                     </div>
                 </div>
             </div>
-        </div>
+        </main>
     )
 }
 

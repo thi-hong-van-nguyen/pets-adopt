@@ -6,6 +6,7 @@ import Pet from './Pet';
 import { fetchDogs } from '../actions';
 
 function Dogs(props) {
+    console.log('Dogs renders')
     const { fetchDogs, dogs, isLoading } = props;
     useEffect(() => {
         fetchDogs(dummyData.dogs)

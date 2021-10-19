@@ -3,9 +3,10 @@ import { useHistory } from 'react-router-dom'
 
 export default function Footer() {
     const { push } = useHistory()
-
+    console.log('footer renders')
     return (
-        <footer>
+
+        < footer >
             <div id='footer-container'>
                 <div id='footer-contents-container'>
                     <div id='footer-contents'>
@@ -43,6 +44,6 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-        </footer>
+        </footer >
     )
 }

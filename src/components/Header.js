@@ -3,9 +3,10 @@ import { Link } from 'react-router-dom';
 
 export default function Header() {
     const [display, setDisplay] = useState(false)
-
+    console.log('header renders')
     return (
-        <header>
+
+        < header >
             <div className='header'>
                 <div className='logo-slogan-container'>
                     <div>
@@ -46,6 +47,6 @@ export default function Header() {
                     <div></div>
                 </div>
             </div>
-        </header>
+        </header >
     )
 }

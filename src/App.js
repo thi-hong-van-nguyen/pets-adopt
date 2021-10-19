@@ -1,5 +1,6 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Route, Switch } from 'react-router-dom';
+import axios from 'axios'
 
 import Header from './components/Header';
 import Dogs from '../src/components/Dogs';
@@ -14,6 +15,8 @@ import Footer from './components/Footer';
 import Details from './components/Details';
 
 function App() {
+  console.log('App renders')
+
   return (
     <div className="App">
       <Header />
